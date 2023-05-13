@@ -1295,7 +1295,7 @@ _achievements:
       description: "매 10초마다 0.005%의 확률로 달성됩니다"
     _setNameToSyuilo:
       title: "하느님 복합관념"
-      description: "이름을 <b>syuilo</b>로 설정했습니다"
+      description: "이름을 syuilo로 설정했습니다"
     _passedSinceAccountCreated1:
       title: "1주년"
       description: "계정을 생성하고 1년이 지났습니다"
@@ -1478,7 +1478,7 @@ _registry:
   createKey: "열쇠생성"
 
 _aboutMisskey:
-  about: "《Misskey》는 <b>syuilo</b>동지에 의해서 2014년부터 개발되여온 개방원천쏘프트웨어입니다."
+  about: "《Misskey》는 syuilo</b>동지에 의해서 2014년부터 개발되여온 개방원천쏘프트웨어입니다."
   contributors: "주요기여자"
   allContributors: "모든 기여자"
   source: "원천코드"
@@ -1643,7 +1643,7 @@ _time:
 _timelineTutorial:
   title: "《Misskey》의 사용방법"
   step1_1: "이것은 《타임라인》입니다. 《{name}》에 게시된 《노트》가 시간순으로 표시됩니다."
-  step1_2: "타임라인은 몇 가지 종류로 나뉩니다. 그 중에 《<b>홈</b>타임라인》은 내가 구독한 사람의 글이 표시되며, 《<b>내부</b>타임라인》에는 《{name}》의 모든 글이 표시됩니다."
+  step1_2: "타임라인은 몇 가지 종류로 나뉩니다. 그 중에 《홈타임라인》은 내가 구독한 사람의 글이 표시되며, 《내부타임라인》에는 《{name}》의 모든 글이 표시됩니다."
   step2_1: "시험삼아 노트를 작성해봅시다. 화면에 있는 연필단추을 눌러보세요."
   step2_2: "첫노트이니까 자기소개, 혹은 가볍게 \"안녕하십니까? {name}의 동무들!\"라고 올려보는 것은 어떨까요?"
   step3_1: "노트작성을 끝내셨습니까?"
