@@ -1759,7 +1759,7 @@ _widgets:
   button: "단추"
   onlineUsers: "직결사용자"
   jobQueue: "작업대기렬"
-  serverMetric: "인스턴스통계"
+  serverMetric: "봉사기통계"
   aiscript: "AiScript대화부"
   aiscriptApp: "AiScript응용프로그람"
   aichan: "아이"
