@@ -361,10 +361,13 @@ export const langmap = {
 		nativeName: 'ಕನ್ನಡ (India)',
 	},
 	'ko': {
-		nativeName: '한국어',
+		nativeName: '조선어',
+	},
+	'ko-KP': {
+		nativeName: '조선어 (조선민주주의인민공화국)',
 	},
 	'ko-KR': {
-		nativeName: '한국어 (한국)',
+		nativeName: '한국어 (대한민국)',
 	},
 	'ku-TR': {
 		nativeName: 'Kurdî',
