@@ -2,7 +2,7 @@
 <div :class="[$style.root, { _panel: !widgetProps.transparent }]" data-cy-mkw-calendar>
 	<div :class="[$style.calendar, { [$style.isHoliday]: isHoliday }]">
 		<p :class="$style.monthAndYear">
-			<span :class="$style.year">{{ i18n.t('yearX', { year }) }}</span>
+			<span :class="$style.year">{{ i18n.t('jucheYearX', { jucheYear, year }) }}</span>
 			<span :class="$style.month">{{ i18n.t('monthX', { month }) }}</span>
 		</p>
 		<p v-if="month === 1 && day === 1" class="day">🎉{{ i18n.t('dayX', { day }) }}<span style="display: inline-block; transform: scaleX(-1);">🎉</span></p>
@@ -63,6 +63,7 @@ const { widgetProps, configure } = useWidgetPropsManager(name,
 );
 
 const year = ref(0);
+const jucheYear = ref(0);
 const month = ref(0);
 const day = ref(0);
 const weekDay = ref('');
@@ -77,6 +78,7 @@ const tick = () => {
 	const ny = now.getFullYear();
 
 	year.value = ny;
+	jucheYear.value = ny - 1911;
 	month.value = nm + 1;
 	day.value = nd;
 	weekDay.value = [
