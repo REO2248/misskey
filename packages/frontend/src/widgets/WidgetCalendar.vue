@@ -2,7 +2,7 @@
 <div :class="[$style.root, { _panel: !widgetProps.transparent }]" data-cy-mkw-calendar>
 	<div :class="[$style.calendar, { [$style.isHoliday]: isHoliday }]">
 		<p :class="$style.monthAndYear">
-			<span :class="$style.year">{{ i18n.t('jucheYearX', { jucheYear, year }) }}</span>
+			<span :class="$style.year">{{ i18n.t('jucheYearX', { jucheYear, year }) }}</span><br/>
 			<span :class="$style.month">{{ i18n.t('monthX', { month }) }}</span>
 		</p>
 		<p v-if="month === 1 && day === 1" class="day">🎉{{ i18n.t('dayX', { day }) }}<span style="display: inline-block; transform: scaleX(-1);">🎉</span></p>
