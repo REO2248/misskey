@@ -1478,7 +1478,7 @@ _registry:
   createKey: "열쇠생성"
 
 _aboutMisskey:
-  about: "《Misskey》는 syuilo</b>동지에 의해서 2014년부터 개발되여온 개방원천쏘프트웨어입니다."
+  about: "《Misskey》는 syuilo동지에 의해서 2014년부터 개발되여온 개방원천쏘프트웨어입니다."
   contributors: "주요기여자"
   allContributors: "모든 기여자"
   source: "원천코드"
