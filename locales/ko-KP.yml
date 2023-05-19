@@ -1744,6 +1744,7 @@ _widgets:
   notifications: "알림"
   timeline: "타임라인"
   calendar: "달력"
+  calendarJuche: "달력(주체력)"
   trends: "추세"
   clock: "시계"
   rss: "RSS읽기프로그람"

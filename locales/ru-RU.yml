@@ -1615,6 +1615,7 @@ _widgets:
   notifications: "Уведомления"
   timeline: "Лента"
   calendar: "Календарь"
+  calendarJuche: "Календарь Чучхе"
   trends: "Актуальное"
   clock: "Часы"
   rss: "Просмотр RSS"

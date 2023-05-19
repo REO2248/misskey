@@ -1052,6 +1052,7 @@ _widgets:
   notifications: "الإشعارات"
   timeline: "الخيط الزمني"
   calendar: "التقويم"
+  calendarJuche: "التقويم جوتشي"
   trends: "المتداوَلة"
   clock: "الساعة"
   rss: "تدفق RSS"

@@ -1744,6 +1744,7 @@ _widgets:
   notifications: "通知"
   timeline: "タイムライン"
   calendar: "カレンダー"
+  calendarJuche: "カレンダー(主体暦)"
   trends: "トレンド"
   clock: "時計"
   rss: "RSSリーダー"

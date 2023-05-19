@@ -1674,6 +1674,7 @@ _widgets:
   notifications: "通知"
   timeline: "时间线"
   calendar: "日历"
+  calendarJuche: "日历(主体历)"
   trends: "趋势"
   clock: "时钟"
   rss: "RSS阅读器"

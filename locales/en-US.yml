@@ -1705,6 +1705,7 @@ _widgets:
   notifications: "Notifications"
   timeline: "Timeline"
   calendar: "Calendar"
+  calendarJuche: "Juche calendar"
   trends: "Trending"
   clock: "Clock"
   rss: "RSS reader"
