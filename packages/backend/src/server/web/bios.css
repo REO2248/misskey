@@ -1,5 +1,9 @@
+@font-face {
+	font-family: 'KP Sans';
+	src: url("https://s3.dpr.kim/assets/KP-Sans.woff2");
+}
 * {
-	font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+	font-family: Fira code, Fira Mono, Consolas, "KP Sans", Menlo, Courier, monospace;
 }
 
 html {

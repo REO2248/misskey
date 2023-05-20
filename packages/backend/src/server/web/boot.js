@@ -199,8 +199,13 @@
 		<code>${JSON.stringify(details)}</code>`;
 		errorsElement.appendChild(detailsElement);
 		addStyle(`
+		@font-face {
+			font-family: 'KP Sans';
+			src: url("https://s3.dpr.kim/assets/KP-Sans.woff2");
+		}
+
 		* {
-			font-family: BIZ UDGothic, Roboto, HelveticaNeue, Arial, sans-serif;
+			font-family: BIZ UDGothic, Roboto, "KP Sans", HelveticaNeue, Arial, sans-serif;
 		}
 
 		#misskey_app,
@@ -283,7 +288,7 @@
 		}
 
 		code {
-			font-family: Fira, FiraCode, monospace;
+			font-family: Fira, FiraCode, "KP Sans", monospace;
 		}
 
 		details {
