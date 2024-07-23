@@ -1,7 +1,9 @@
 @charset "utf-8";
 @font-face {
-	font-family: 'KP Sans';
-	src: url("https://s3.dpr.kim/assets/KP-Sans.woff2");
+	font-family: Chollima;
+	src: url(/static-assets/fonts/chollima.woff2) format("woff2"),
+			url(/static-assets/fonts/chollima.woff) format("woff"),
+			url(/static-assets/fonts/chollima.ttf) format("truetype");
 }
 
 /*
@@ -39,7 +41,7 @@ html {
 	accent-color: var(--accent);
 	overflow: auto;
 	overflow-wrap: break-word;
-	font-family: 'Hiragino Maru Gothic Pro', "BIZ UDGothic", "KP Sans", Roboto, HelveticaNeue, Arial, sans-serif;
+	font-family: 'Hiragino Maru Gothic Pro', "BIZ UDGothic", Chollima, Roboto, HelveticaNeue, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.35;
 	text-size-adjust: 100%;
@@ -412,7 +414,7 @@ rt {
 }
 
 ._monospace {
-	font-family: Fira code, Fira Mono, Consolas, Menlo, 'KP Sans', Courier, monospace !important;
+	font-family: Fira code, Fira Mono, Consolas, Menlo, Chollima, Courier, monospace !important;
 }
 
 ._zoom {

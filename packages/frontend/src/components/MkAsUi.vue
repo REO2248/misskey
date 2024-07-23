@@ -122,7 +122,7 @@ function openPostForm() {
 }
 
 .fontMonospace {
-	font-family: Fira code, Fira Mono, Consolas, Menlo, "KP Sans", Courier, monospace;
+	font-family: Fira code, Fira Mono, Consolas, Menlo, Chollima, Courier, monospace;
 }
 
 .postForm {

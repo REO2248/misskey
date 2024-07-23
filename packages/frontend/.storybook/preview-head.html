@@ -2,10 +2,15 @@
 <link rel="preload" href="https://github.com/misskey-dev/misskey/blob/master/packages/frontend/assets/fedi.jpg?raw=true" as="image" type="image/jpeg" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 <link rel="stylesheet" href="https://unpkg.com/@fontsource/m-plus-rounded-1c/index.css">
-<link rel="stylesheet" href="https://s3.dpr.kim/assets/kpsans.css">
 <style>
+	@font-face {
+		font-family: Chollima;
+		src: url(/static-assets/fonts/chollima.woff2) format("woff2"),
+				url(/static-assets/fonts/chollima.woff) format("woff"),
+				url(/static-assets/fonts/chollima.ttf) format("truetype");
+	}
 	html {
-		font-family: 'Hiragino Maru Gothic Pro', 'BIZ UDGothic', "KP Sans", Roboto, HelveticaNeue, Arial, 'M PLUS Rounded 1c', sans-serif;
+		font-family: 'Hiragino Maru Gothic Pro', 'BIZ UDGothic', Chollima, Roboto, HelveticaNeue, Arial, 'M PLUS Rounded 1c', sans-serif;
 	}
 </style>
 <script>

@@ -3,12 +3,14 @@
  *
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-@font-face {
-	font-family: 'KP Sans';
-	src: url("https://s3.dpr.kim/assets/KP-Sans.woff2");
+ @font-face {
+	font-family: Chollima;
+	src: url(/static-assets/fonts/chollima.woff2) format("woff2"),
+			url(/static-assets/fonts/chollima.woff) format("woff"),
+			url(/static-assets/fonts/chollima.ttf) format("truetype");
 }
 * {
-	font-family: Fira code, Fira Mono, Consolas, "KP Sans", Menlo, Courier, monospace;
+	font-family: Fira code, Fira Mono, Consolas, Chollima, Menlo, Courier, monospace;
 }
 
 html {

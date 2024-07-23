@@ -210,12 +210,14 @@
 		errorsElement.appendChild(detailsElement);
 		addStyle(`
 		@font-face {
-			font-family: 'KP Sans';
-			src: url("https://s3.dpr.kim/assets/KP-Sans.woff2");
+			font-family: Chollima;
+			src: url(/static-assets/fonts/chollima.woff2) format("woff2"),
+					url(/static-assets/fonts/chollima.woff) format("woff"),
+					url(/static-assets/fonts/chollima.ttf) format("truetype");
 		}
 
 		* {
-			font-family: BIZ UDGothic, Roboto, "KP Sans", HelveticaNeue, Arial, sans-serif;
+			font-family: BIZ UDGothic, Roboto, Chollima, HelveticaNeue, Arial, sans-serif;
 		}
 
 		#misskey_app,
@@ -294,7 +296,7 @@
 		}
 
 		code {
-			font-family: Fira, FiraCode, "KP Sans", monospace;
+			font-family: Fira, FiraCode, Chollima, monospace;
 		}
 
 		#errorInfo {
