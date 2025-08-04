@@ -13,7 +13,6 @@ export default function(app: App) {
 	app.component('WidgetNotifications', defineAsyncComponent(() => import('./WidgetNotifications.vue')));
 	app.component('WidgetTimeline', defineAsyncComponent(() => import('./WidgetTimeline.vue')));
 	app.component('WidgetCalendar', defineAsyncComponent(() => import('./WidgetCalendar.vue')));
-	app.component('WidgetCalendarJuche', defineAsyncComponent(() => import('./WidgetCalendarJuche.vue')));
 	app.component('WidgetRss', defineAsyncComponent(() => import('./WidgetRss.vue')));
 	app.component('WidgetRssTicker', defineAsyncComponent(() => import('./WidgetRssTicker.vue')));
 	app.component('WidgetTrends', defineAsyncComponent(() => import('./WidgetTrends.vue')));
@@ -52,7 +51,6 @@ export const widgets = [
 	'notifications',
 	'timeline',
 	'calendar',
-	'calendarJuche',
 	'rss',
 	'rssTicker',
 	'trends',
